@@ -28,7 +28,7 @@ const friendlySystemPrompt = await askQuestion(
 );
 
 console.log("++++++++++++++++++++++ Friendly System Prompt ++++++++++++++++++++++");
-console.log(friendlySystemPrompt);
+console.log(friendlySystemPrompt , "\n\n" );
 
 
 
@@ -41,7 +41,7 @@ const formattingSystemPrompt = await askQuestion(
 );
 
 console.log("++++++++++++++++++++++ Formal System Prompt ++++++++++++++++++++++");
-console.log(formattingSystemPrompt);
+console.log(formattingSystemPrompt , "\n\n" );
 
 
 
@@ -55,4 +55,4 @@ const rudeSystemPrompt = await askQuestion(
 );
 
 console.log("++++++++++++++++++++++ Rude System Prompt ++++++++++++++++++++++");
-console.table(rudeSystemPrompt);
+console.log(rudeSystemPrompt , "\n\n" );
